@@ -5,19 +5,19 @@ import { StatusBar } from "expo-status-bar";
 export default function Abc() {
   return (
     <>
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#ffff"
-      }}
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#ffff"
+        }}
       >
-       <Button icon="camera" mode="contained" onPress={() => console.log('Pressed')}>
-    Press me
-  </Button>
-      <Text>Edaaa.</Text>
-    </View>
-      </>
+        <Button icon="camera" mode="contained" onPress={() => console.log('Pressed')}>
+          Press me
+        </Button>
+        <Text>Edaaa.</Text>
+      </View>
+    </>
   );
 }
